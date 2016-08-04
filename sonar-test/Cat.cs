@@ -7,6 +7,10 @@ namespace SonarTest
 {
     public class Cat : Mammal
     {
+        public Cat(string name) : base(name)
+        {
+        }
+
         public override void Run()
         {
             Console.WriteLine("running...");

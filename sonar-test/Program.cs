@@ -10,11 +10,18 @@ namespace SonarTest
     {
         static void Main(string[] args)
         {
-            Cat kitty = new Cat();
-            kitty.Move();
-            kitty.Breathe();
-            Console.ReadKey();
+            Cat kitty = new Cat("Flash");
+            Trout nemo = new Trout("Nemo");
+            Animal[] zoo = { kitty, nemo };
 
+            foreach (Animal crit in zoo)
+            {
+                Console.WriteLine(crit.ToString());
+                crit.Move();
+                crit.Breathe();
+            }
+
+            Console.ReadKey();
         }
     }
 }

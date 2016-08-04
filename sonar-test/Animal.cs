@@ -27,7 +27,7 @@ namespace SonarTest
         public override string ToString()
         {
             StringBuilder returnString = new StringBuilder();
-            returnString.AppendLine(this.GetType() + ":" + this.name);
+            returnString.AppendLine(this.GetType().Name + ":" + this.name);
             return returnString.ToString();
         }
     }

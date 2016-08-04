@@ -8,5 +8,9 @@ namespace SonarTest
     public abstract class Fish : Animal 
     {
         public string waterType;
+
+        public Fish(string name) : base(name)
+        {
+        }
     }
 }

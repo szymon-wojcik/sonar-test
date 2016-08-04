@@ -9,5 +9,9 @@ namespace SonarTest
     {
         new readonly int numOfLegs = 4;
         public abstract void Run();
+
+        public Mammal(string name) : base(name)
+        {
+        }
     }
 }
