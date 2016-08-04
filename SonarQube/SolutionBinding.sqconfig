@@ -1,0 +1,10 @@
+{
+  "ServerUri": "http://40.74.51.223:9977/",
+  "ProjectKey": "test:console",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "cs-sonar-way-91777",
+      "ProfileTimestamp": "2016-06-21T14:54:58+02:00"
+    }
+  }
+}
