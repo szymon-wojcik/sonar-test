@@ -13,6 +13,7 @@ namespace SonarTest
             Cat kitty = new Cat();
             kitty.Move();
             kitty.Breathe();
+            Console.ReadKey();
 
         }
     }
